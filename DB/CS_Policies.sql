@@ -61,12 +61,12 @@ FROM MinorCivilizations WHERE Type IN (
 CREATE TABLE IF NOT EXISTS _MinorCivilization_AllyBonuses (
 	MinorCivType		TEXT NOT NULL PRIMARY KEY REFERENCES MinorCivilizations(Type),
 	AllyBonusPolicy		TEXT DEFAULT NULL REFERENCES Policies(Type),
-	--AllyBonusHelp		TEXT DEFAULT NULL REFERENCES Language_en_US(Tag)
-	AllyBonusHelp		TEXT DEFAULT NULL
+	AllyBonusHelp		TEXT DEFAULT NULL,
+	CSWonderHelp		TEXT DEFAULT NULL
 );
 INSERT OR REPLACE INTO _MinorCivilization_AllyBonuses
-		(MinorCivType,	AllyBonusPolicy,							AllyBonusHelp)
-SELECT	Type,			'POLICY_GAIA_CS_' || SUBSTR(Type, 11),	'TXT_KEY_CITYSTATE_' || SUBSTR(Type, 11) || '_HELP'
+		(MinorCivType,	AllyBonusPolicy)
+SELECT	Type,			'POLICY_GAIA_CS_' || SUBSTR(Type, 11)
 FROM MinorCivilizations WHERE Type IN (
 -- Cultured (8)
 	'MINOR_CIV_BOGOTA',
