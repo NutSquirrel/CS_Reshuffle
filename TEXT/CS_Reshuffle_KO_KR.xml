@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Gaia -->
+<GameData>
+	<Language_KO_KR>
+
+		<!-- ================================================= -->
+		<!-- 기존 도시국가 (업데이트만 적용) -->
+		<!-- ================================================= -->
+
+		<!-- 두브로브니크 (라구사) -->
+		<!-- 기존 도시국가는 Replace가 아닌 Update 사용 -->
+		<Update>
+			<Set Text="두브로브니크"/>
+			<Where Tag="TXT_KEY_CITYSTATE_RAGUSA"/>
+		</Update>
+
+		<!-- ================================================= -->
+		<!-- 문화 도시국가 (신규) -->
+		<!-- ================================================= -->
+
+		<!-- 카랄 -->
+		<Replace Tag="TXT_KEY_CITYSTATE_CARAL">
+			<Text>카랄</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_CARAL_ADJ">
+			<Text>카랄</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_CARAL_TEXT">
+			<Text>
+				카랄은 페루 해안의 수페 계곡에 위치한 도시로, 기원전 약 2600년경 번성한 세계에서 가장 오래된 도시 중심지 중 하나이다. 거대한 피라미드, 함몰된 광장, 의례용 건축물은 의례와 교역, 공동 통치를 기반으로 한 고도로 조직된 사회를 보여준다.
+				[NEWLINE][NEWLINE]
+				요새나 전쟁의 흔적이 거의 발견되지 않는 점은 카랄을 정복이 아닌 종교적 권위와 지역 교류에 기반한 초기 복합 문명의 대표적 사례로 만든다.
+			</Text>
+		</Replace>
+
+		<!-- 그레이트 짐바브웨 -->
+		<Replace Tag="TXT_KEY_CITYSTATE_GREAT_ZIMBAWE">
+			<Text>그레이트 짐바브웨</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_GREAT_ZIMBAWE_ADJ">
+			<Text>짐바브웨</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_GREAT_ZIMBAWE_TEXT">
+			<Text>
+				그레이트 짐바브웨는 11세기에서 15세기 사이 번성한 강력한 아프리카 왕국의 수도였다. 모르타르 없이 쌓아 올린 거대한 석조 성벽과 탑은 뛰어난 공학 기술과 중앙집권적 권력을 증명한다.
+				[NEWLINE][NEWLINE]
+				이 도시는 남부 아프리카 내륙과 스와힐리 해안을 잇는 광범위한 교역망을 통제하며, 금과 상아를 인도양의 사치품과 교환하였다.
+			</Text>
+		</Replace>
+
+		<!-- 수(Sioux) -->
+		<Replace Tag="TXT_KEY_CITYSTATE_SIOUX">
+			<Text>수</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_SIOUX_ADJ">
+			<Text>수</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_SIOUX_TEXT">
+			<Text>
+				수 족은 ‘오체티 샤코윈(일곱 의회 불)’으로 알려진 북아메리카 대평원의 원주민 연합체이다. 원래 삼림 지대에 거주하던 이들은 18세기에 말 문화를 받아들여 뛰어난 사냥꾼이자 상인, 전사로 성장했다.
+				[NEWLINE][NEWLINE]
+				19세기 동안 수 족은 미국의 서부 확장에 강력히 저항했으며, 대수 전쟁과 같은 주요 분쟁에서 중심적인 역할을 수행했다. 오늘날에도 수 공동체는 문화적 정체성과 전통, 자치권을 유지하고 있다.
+			</Text>
+		</Replace>
+
+		<!-- ================================================= -->
+		<!-- 해양 도시국가 (신규) -->
+		<!-- ================================================= -->
+
+		<!-- 레이캬비크 -->
+		<Replace Tag="TXT_KEY_CITYSTATE_REYKJAVIK">
+			<Text>레이캬비크</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_REYKJAVIK_ADJ">
+			<Text>아이슬란드</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_REYKJAVIK_TEXT">
+			<Text>
+				레이캬비크는 9세기 말 북유럽 정착민들에 의해 건설되었으며, 어업과 지열 자원에 의존한 작은 해안 마을에서 성장하였다. 도시 이름은 인근 온천에서 피어오르는 김을 뜻하는 ‘연기의 만’에서 유래한다.
+				[NEWLINE][NEWLINE]
+				근대에 들어 레이캬비크는 아이슬란드의 정치·문화 중심지로 부상하여 1944년 평화적인 독립을 이끌었으며, 오늘날에는 지속 가능성과 혁신의 상징으로 평가받는다.
+			</Text>
+		</Replace>
+
+		<!-- 세이셸 -->
+		<Replace Tag="TXT_KEY_CITYSTATE_SEYCHELLES">
+			<Text>세이셸</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_SEYCHELLES_ADJ">
+			<Text>세이셸</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_SEYCHELLES_TEXT">
+			<Text>
+				세이셸은 마다가스카르 북동쪽 인도양에 위치한 115개의 섬으로 이루어진 군도이다. 18세기까지 무인도였던 이곳은 이후 아프리카와 아시아를 잇는 해상 교역로의 중요한 거점이 되었다.
+				[NEWLINE][NEWLINE]
+				1976년 독립 이후 세이셸은 해양 생물 다양성과 환경 보호, 전략적 위치로 유명한 번영한 섬나라로 발전하였다.
+			</Text>
+		</Replace>
+
+		<!-- ================================================= -->
+		<!-- 상업 도시국가 (신규) -->
+		<!-- ================================================= -->
+
+		<!-- 아덴 -->
+		<Replace Tag="TXT_KEY_CITYSTATE_ADEN">
+			<Text>아덴</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_ADEN_ADJ">
+			<Text>예멘</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_ADEN_TEXT">
+			<Text>
+				아덴은 아라비아해에 위치한 역사적인 항구 도시로, 홍해 입구의 세계적으로 중요한 해상 요충지를 장악하고 있다. 천연 항만 덕분에 인도양 교역의 핵심 거점으로 성장하였다.
+				[NEWLINE][NEWLINE]
+				수세기 동안 아덴은 향신료, 직물, 유향 무역의 중심지였으며, 증기선 시대에는 중요한 보급 항구로 기능했다.
+			</Text>
+		</Replace>
+
+		<!-- 가라만테스 -->
+		<Replace Tag="TXT_KEY_CITYSTATE_GARAMANTES">
+			<Text>가라만테스</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_GARAMANTES_ADJ">
+			<Text>베르베르</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_GARAMANTES_TEXT">
+			<Text>
+				가라만테스는 기원전 500년부터 서기 700년까지 오늘날 리비아의 페잔 지역에서 번성한 고대 베르베르 민족이다. 이들은 포가라로 불리는 지하 관개 시스템을 통해 사하라 사막 깊숙한 곳에서도 대규모 정착지를 유지했다.
+				[NEWLINE][NEWLINE]
+				가라만테스는 지중해와 사하라 이남 아프리카를 잇는 광범위한 교역망을 유지했으나, 환경 변화와 정치적 요인으로 점차 쇠퇴하였다.
+			</Text>
+		</Replace>
+
+		<!-- 하바나 -->
+		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA">
+			<Text>하바나</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA_ADJ">
+			<Text>쿠바</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_HAVANA_TEXT">
+			<Text>
+				하바나는 카리브해에서 가장 중요한 항구 중 하나로 성장하여 스페인령 아메리카의 해상 교통을 보호하였다. 요새화된 항만, 조선소, 상업 시설은 도시를 교역과 금융, 해군력의 중심지로 만들었다.
+				[NEWLINE][NEWLINE]
+				시간이 흐르며 하바나는 유럽, 아프리카, 아메리카 문화가 융합된 독특한 도시 문화를 형성하였으며, 이는 오늘날까지 건축과 항구 경관에 남아 있다.
+			</Text>
+		</Replace>
+
+		<!-- ================================================= -->
+		<!-- 군사 도시국가 (신규) -->
+		<!-- ================================================= -->
+
+		<!-- 다카르 -->
+		<Replace Tag="TXT_KEY_CITYSTATE_DAKAR">
+			<Text>다카르</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_DAKAR_ADJ">
+			<Text>세네갈</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_DAKAR_TEXT">
+			<Text>
+				다카르는 1857년 프랑스 군사 기지로 설립되었으며, 1902년 프랑스령 서아프리카의 수도가 되었다. 대서양 연안의 전략적 위치로 인해 중요한 해군 및 공군 기지로 발전했다.
+				[NEWLINE][NEWLINE]
+				1960년 세네갈 독립 이후에도 다카르는 국가의 경제·문화 중심지이자 아프리카 정치의 핵심 거점으로 남아 있다.
+			</Text>
+		</Replace>
+
+		<!-- 마푸체 -->
+		<Replace Tag="TXT_KEY_CITYSTATE_MAPUCHE">
+			<Text>마푸체</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_MAPUCHE_ADJ">
+			<Text>마푸체</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_MAPUCHE_TEXT">
+			<Text>
+				마푸체는 칠레와 아르헨티나 남부에 거주하는 원주민으로, 강한 저항 정신과 군사 조직으로 유명하다. 이들은 수세기 동안 잉카 제국과 스페인 식민 세력의 확장에 성공적으로 맞섰다.
+				[NEWLINE][NEWLINE]
+				전쟁 시에는 토키라 불리는 선출된 군사 지도자가 이끌었으며, 오늘날까지도 문화적 정체성과 자치에 대한 열망을 유지하고 있다.
+			</Text>
+		</Replace>
+
+		<!-- ================================================= -->
+		<!-- 종교 도시국가 (신규) -->
+		<!-- ================================================= -->
+
+		<!-- 난 마돌 -->
+		<Replace Tag="TXT_KEY_CITYSTATE_NAN_MADOL">
+			<Text>난 마돌</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_NAN_MADOL_ADJ">
+			<Text>폰페이</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_NAN_MADOL_TEXT">
+			<Text>
+				난 마돌은 폰페이 해안 앞 인공 섬 위에 건설된 의례 및 정치 중심지였다. 거대한 현무암 기둥 구조물은 사우델뢰르 왕조의 권력을 상징한다.
+				[NEWLINE][NEWLINE]
+				‘태평양의 베네치아’로 불리는 난 마돌은 오세아니아에서 가장 뛰어난 공학적 성취 중 하나로 평가된다.
+			</Text>
+		</Replace>
+
+		<!-- 티와나쿠 -->
+		<Replace Tag="TXT_KEY_CITYSTATE_TIWANAKU">
+			<Text>티와나쿠</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_TIWANAKU_ADJ">
+			<Text>티와나쿠</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_TIWANAKU_TEXT">
+			<Text>
+				티와나쿠는 티티카카 호수 인근에 위치한 중요한 종교·의례 중심지로, 서기 500년에서 1000년 사이 번성하였다. 거대한 석조 건축과 천문학적 정렬은 고도로 발달한 영적 세계관을 반영한다.
+				[NEWLINE][NEWLINE]
+				티와나쿠의 영향력은 순례, 의례 교류, 문화 확산을 통해 안데스 전역으로 퍼져 이후 안데스 문명의 토대를 마련했다.
+			</Text>
+		</Replace>
+
+	</Language_KO_KR>
+</GameData>

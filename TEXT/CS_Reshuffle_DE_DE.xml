@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Gaia -->
+<GameData>
+	<Language_DE_DE>
+
+		<!-- ================================================= -->
+		<!-- BESTEHENDE STADTSTAATEN (NUR UPDATE) -->
+		<!-- ================================================= -->
+
+		<!-- DUBROVNIK (RAGUSA) -->
+		<!-- für bestehende Stadtstaaten Update statt Replace verwenden -->
+		<Update>
+			<Set Text="Dubrovnik"/>
+			<Where Tag="TXT_KEY_CITYSTATE_RAGUSA"/>
+		</Update>
+
+		<!-- ================================================= -->
+		<!-- KULTURELLE STADTSTAATEN (NEU) -->
+		<!-- ================================================= -->
+
+		<!-- CARAL -->
+		<Replace Tag="TXT_KEY_CITYSTATE_CARAL">
+			<Text>Caral</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_CARAL_ADJ">
+			<Text>Caral</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_CARAL_TEXT">
+			<Text>
+				Caral liegt im Supe-Tal an der Küste Perus und gilt als eines der ältesten bekannten urbanen Zentren der Welt. Um etwa 2600 v. Chr. entstanden hier monumentale Pyramiden, versenkte Plätze und zeremonielle Bauwerke, die auf eine hoch organisierte Gesellschaft mit religiöser und wirtschaftlicher Ordnung hinweisen.
+				[NEWLINE][NEWLINE]
+				Bemerkenswert ist das Fehlen von Befestigungen oder Spuren großflächiger Gewalt, was Caral zu einem frühen Beispiel komplexer Zivilisation macht, die auf Ritual, Austausch und gemeinschaftlicher Organisation beruhte.
+			</Text>
+		</Replace>
+
+		<!-- GREAT ZIMBABWE -->
+		<Replace Tag="TXT_KEY_CITYSTATE_GREAT_ZIMBAWE">
+			<Text>Groß-Simbabwe</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_GREAT_ZIMBAWE_ADJ">
+			<Text>Simbabwisch</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_GREAT_ZIMBAWE_TEXT">
+			<Text>
+				Groß-Simbabwe war zwischen dem 11. und 15. Jahrhundert die Hauptstadt eines mächtigen afrikanischen Königreichs. Die gewaltigen Steinmauern und Türme, ohne Mörtel errichtet, zeugen von fortschrittlicher Baukunst und zentraler Herrschaft.
+				[NEWLINE][NEWLINE]
+				Die Stadt kontrollierte weitreichende Handelsnetze, die das Binnenland des südlichen Afrikas mit der Swahili-Küste verbanden, und exportierte Gold und Elfenbein im Austausch gegen Luxusgüter aus dem Indischen Ozean.
+			</Text>
+		</Replace>
+
+		<!-- SIOUX -->
+		<Replace Tag="TXT_KEY_CITYSTATE_SIOUX">
+			<Text>Sioux</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_SIOUX_ADJ">
+			<Text>Sioux</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_SIOUX_TEXT">
+			<Text>
+				Die Sioux, auch als Oceti Sakowin („Sieben Ratsfeuer“) bekannt, sind ein Zusammenschluss indigener Völker der Großen Ebenen Nordamerikas. Ursprünglich Waldvölker, übernahmen sie im 18. Jahrhundert die Reitkultur der Prärie und wurden zu geschickten Jägern, Händlern und Kriegern.
+				[NEWLINE][NEWLINE]
+				Im 19. Jahrhundert widersetzten sich die Sioux vehement der Expansion der Vereinigten Staaten und spielten eine zentrale Rolle in Konflikten wie dem Großen Sioux-Krieg. Bis heute bewahren Sioux-Gemeinschaften ihre kulturelle Identität, Traditionen und politische Eigenständigkeit.
+			</Text>
+		</Replace>
+
+		<!-- ================================================= -->
+		<!-- MARITIME STADTSTAATEN (NEU) -->
+		<!-- ================================================= -->
+
+		<!-- REYKJAVÍK -->
+		<Replace Tag="TXT_KEY_CITYSTATE_REYKJAVIK">
+			<Text>Reykjavík</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_REYKJAVIK_ADJ">
+			<Text>Isländisch</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_REYKJAVIK_TEXT">
+			<Text>
+				Reykjavík wurde im späten 9. Jahrhundert von nordischen Siedlern gegründet und entwickelte sich aus einem kleinen Küstendorf, das von Fischerei und geothermalen Ressourcen lebte. Der Name bedeutet „Rauchbucht“ und verweist auf die dampfenden heißen Quellen der Umgebung.
+				[NEWLINE][NEWLINE]
+				In der Neuzeit wurde Reykjavík zum politischen und kulturellen Zentrum Islands und führte das Land 1944 friedlich in die Unabhängigkeit. Heute gilt die Stadt als Symbol für Nachhaltigkeit, Innovation und moderne nordische Kultur.
+			</Text>
+		</Replace>
+
+		<!-- SEYCHELLEN -->
+		<Replace Tag="TXT_KEY_CITYSTATE_SEYCHELLES">
+			<Text>Seychellen</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_SEYCHELLES_ADJ">
+			<Text>Seychellisch</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_SEYCHELLES_TEXT">
+			<Text>
+				Die Seychellen sind ein Archipel aus 115 Inseln im Indischen Ozean nordöstlich von Madagaskar. Bis ins 18. Jahrhundert unbewohnt, entwickelten sie sich später zu einem wichtigen Zwischenstopp entlang der maritimen Handelsrouten zwischen Afrika und Asien.
+				[NEWLINE][NEWLINE]
+				Nach der Unabhängigkeit im Jahr 1976 entwickelten sich die Seychellen zu einem wohlhabenden Inselstaat, bekannt für ihre Meeresbiodiversität, ihren Naturschutz und ihre strategische Lage im Indischen Ozean.
+			</Text>
+		</Replace>
+
+		<!-- ================================================= -->
+		<!-- MERKANTILE STADTSTAATEN (NEU) -->
+		<!-- ================================================= -->
+
+		<!-- ADEN -->
+		<Replace Tag="TXT_KEY_CITYSTATE_ADEN">
+			<Text>Aden</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_ADEN_ADJ">
+			<Text>Jemenitisch</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_ADEN_TEXT">
+			<Text>
+				Aden ist eine historische Hafenstadt am Arabischen Meer und kontrolliert einen der bedeutendsten maritimen Engpässe der Welt am Eingang zum Roten Meer. Der natürliche, geschützte Hafen machte Aden zu einem zentralen Umschlagplatz des Handels im Indischen Ozean.
+				[NEWLINE][NEWLINE]
+				Über Jahrhunderte florierte Aden als Handelszentrum für Gewürze, Textilien und Weihrauch und wurde später zu einer wichtigen Kohle- und Versorgungsstation im Zeitalter der Dampfschifffahrt.
+			</Text>
+		</Replace>
+
+		<!-- GARAMANTEN -->
+		<Replace Tag="TXT_KEY_CITYSTATE_GARAMANTES">
+			<Text>Garamanten</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_GARAMANTES_ADJ">
+			<Text>Berberisch</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_GARAMANTES_TEXT">
+			<Text>
+				Die Garamanten waren ein antikes Berbervolk, das zwischen 500 v. Chr. und 700 n. Chr. in der Region Fezzan im heutigen Libyen lebte. Durch ausgeklügelte unterirdische Bewässerungssysteme, sogenannte Foggaras, konnten sie große Siedlungen tief in der Sahara unterhalten.
+				[NEWLINE][NEWLINE]
+				Sie unterhielten ausgedehnte Handelsnetze zwischen dem Mittelmeerraum und Subsahara-Afrika, bevor Umweltveränderungen und politische Umbrüche ihren Niedergang einleiteten.
+			</Text>
+		</Replace>
+
+		<!-- HAVANNA -->
+		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA">
+			<Text>Havanna</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA_ADJ">
+			<Text>Kubanisch</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_HAVANA_TEXT">
+			<Text>
+				Havanna entwickelte sich zu einem der wichtigsten Häfen der Karibik und sicherte die Seewege des spanischen Amerika. Befestigte Hafenanlagen, Werften und Handelshäuser machten die Stadt zu einem Zentrum von Handel, Finanzen und Seemacht.
+				[NEWLINE][NEWLINE]
+				Im Laufe der Zeit entstand eine unverwechselbare urbane Kultur, geprägt von europäischen, afrikanischen und amerikanischen Einflüssen. Bis heute spiegeln Architektur und Hafen das maritime Erbe der Stadt wider.
+			</Text>
+		</Replace>
+
+		<!-- ================================================= -->
+		<!-- MILITÄRISCHE STADTSTAATEN (NEU) -->
+		<!-- ================================================= -->
+
+		<!-- DAKAR -->
+		<Replace Tag="TXT_KEY_CITYSTATE_DAKAR">
+			<Text>Dakar</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_DAKAR_ADJ">
+			<Text>Senegalesisch</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_DAKAR_TEXT">
+			<Text>
+				Dakar wurde 1857 als französischer Militärposten gegründet und entwickelte sich 1902 zur Hauptstadt von Französisch-Westafrika. Seine strategische Lage an der Atlantikküste machte es zu einem wichtigen Marine- und Luftwaffenstützpunkt.
+				[NEWLINE][NEWLINE]
+				Nach der Unabhängigkeit Senegals im Jahr 1960 blieb Dakar das wirtschaftliche und kulturelle Zentrum des Landes sowie ein Knotenpunkt afrikanischer Politik.
+			</Text>
+		</Replace>
+
+		<!-- MAPUCHE -->
+		<Replace Tag="TXT_KEY_CITYSTATE_MAPUCHE">
+			<Text>Mapuche</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_MAPUCHE_ADJ">
+			<Text>Mapuche</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_MAPUCHE_TEXT">
+			<Text>
+				Die Mapuche sind ein indigenes Volk im Süden Chiles und Argentiniens, bekannt für ihre Widerstandsfähigkeit und militärische Organisation. Über Jahrhunderte widersetzten sie sich erfolgreich der Expansion sowohl des Inkareichs als auch der spanischen Kolonialmächte.
+				[NEWLINE][NEWLINE]
+				In Kriegszeiten wurden sie von gewählten Militärführern, den sogenannten Tokis, angeführt. Ihre kulturelle Identität und ihr Streben nach Autonomie bestehen bis heute fort.
+			</Text>
+		</Replace>
+
+		<!-- ================================================= -->
+		<!-- RELIGIÖSE STADTSTAATEN (NEU) -->
+		<!-- ================================================= -->
+
+		<!-- NAN MADOL -->
+		<Replace Tag="TXT_KEY_CITYSTATE_NAN_MADOL">
+			<Text>Nan Madol</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_NAN_MADOL_ADJ">
+			<Text>Pohnpeisch</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_NAN_MADOL_TEXT">
+			<Text>
+				Nan Madol war ein zeremonielles und politisches Zentrum, das auf künstlichen Inseln vor der Küste Pohnpeis errichtet wurde. Massive Basaltsäulen bildeten die Grundlage der Bauwerke und dienten der Saudeleur-Dynastie als Machtzentrum.
+				[NEWLINE][NEWLINE]
+				Oft als „Venedig des Pazifiks“ bezeichnet, zählt Nan Madol zu den bemerkenswertesten Ingenieurleistungen Ozeaniens.
+			</Text>
+		</Replace>
+
+		<!-- TIWANAKU -->
+		<Replace Tag="TXT_KEY_CITYSTATE_TIWANAKU">
+			<Text>Tiwanaku</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_TIWANAKU_ADJ">
+			<Text>Tiwanakisch</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_TIWANAKU_TEXT">
+			<Text>
+				Tiwanaku war ein bedeutendes religiöses und zeremonielles Zentrum nahe dem Titicacasee und blühte zwischen 500 und 1000 n. Chr. Monumentale Steinarchitektur und astronomische Ausrichtungen zeugen von einer hochentwickelten spirituellen Weltanschauung.
+				[NEWLINE][NEWLINE]
+				Der Einfluss Tiwanakus verbreitete sich über weite Teile der Anden durch Pilgerwesen, rituellen Austausch und kulturelle Diffusion und legte Grundlagen für spätere Andenkulturen.
+			</Text>
+		</Replace>
+
+	</Language_DE_DE>
+</GameData>

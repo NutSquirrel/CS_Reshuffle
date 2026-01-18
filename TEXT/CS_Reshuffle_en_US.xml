@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Gaia -->
+<GameData>
+	<Language_en_US>
+
+		<!-- ================================================= -->
+		<!-- EXISTING CITY-STATES (UPDATE ONLY) -->
+		<!-- ================================================= -->
+
+		<!-- DUBROVNIK (RAGUSA) -->
+		<!-- must use update and not replace for existing City-States -->
+		<Update>
+			<Set Text="Dubrovnik"/>
+			<Where Tag="TXT_KEY_CITYSTATE_RAGUSA"/>
+		</Update>
+
+		<!-- ================================================= -->
+		<!-- CULTURED CITY-STATES (NEW) -->
+		<!-- ================================================= -->
+
+		<!-- CARAL -->
+		<Replace Tag="TXT_KEY_CITYSTATE_CARAL">
+			<Text>Caral</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_CARAL_ADJ">
+			<Text>Caral</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_CARAL_TEXT">
+			<Text>
+				Caral, located in the Supe Valley of coastal Peru, is one of the oldest known urban centers in the world, flourishing around 2600 BC. Its monumental pyramids, sunken plazas, and ceremonial architecture reveal a highly organized society based on ritual, trade, and shared governance.
+				[NEWLINE][NEWLINE]
+				Notably lacking evidence of warfare or fortifications, Caral represents an early model of complex civilization rooted in religious authority and regional exchange rather than conquest.
+			</Text>
+		</Replace>
+
+		<!-- GREAT ZIMBABWE -->
+		<Replace Tag="TXT_KEY_CITYSTATE_GREAT_ZIMBAWE">
+			<Text>Great Zimbabwe</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_GREAT_ZIMBAWE_ADJ">
+			<Text>Zimbabwean</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_GREAT_ZIMBAWE_TEXT">
+			<Text>
+				Great Zimbabwe was the capital of a powerful African kingdom between the 11th and 15th centuries. Its massive stone enclosures and towers, constructed without mortar, testify to advanced engineering and centralized authority.
+				[NEWLINE][NEWLINE]
+				The city controlled regional trade networks linking the interior of southern Africa with the Swahili Coast, exporting gold and ivory in exchange for luxury goods from the Indian Ocean world.
+			</Text>
+		</Replace>
+
+		<!-- SIOUX -->
+		<Replace Tag="TXT_KEY_CITYSTATE_SIOUX">
+			<Text>Sioux</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_SIOUX_ADJ">
+			<Text>Sioux</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_SIOUX_TEXT">
+			<Text>
+				The Sioux, known collectively as the Oceti Sakowin or “Seven Council Fires,” are a confederation of Native American nations of the Great Plains. Originally woodland peoples, they adopted the horse culture of the plains in the 18th century, becoming skilled hunters, traders, and warriors.
+				[NEWLINE][NEWLINE]
+				Throughout the 19th century, the Sioux fiercely resisted U.S. expansion, playing central roles in conflicts such as the Great Sioux War. Today, Sioux communities continue to preserve their cultural identity, traditions, and sovereignty.
+			</Text>
+		</Replace>
+
+		<!-- ================================================= -->
+		<!-- MARITIME CITY-STATES (NEW) -->
+		<!-- ================================================= -->
+
+		<!-- REYKJAVIK -->
+		<Replace Tag="TXT_KEY_CITYSTATE_REYKJAVIK">
+			<Text>Reykjavik</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_REYKJAVIK_ADJ">
+			<Text>Icelander</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_REYKJAVIK_TEXT">
+			<Text>
+				Founded by Norse settlers in the late 9th century, Reykjavik began as a small coastal settlement sustained by fishing and geothermal resources. Its name, meaning “Bay of Smokes,” reflects the steam rising from nearby hot springs.
+				[NEWLINE][NEWLINE]
+				In the modern era, Reykjavik emerged as the political and cultural center of Iceland, leading the nation’s peaceful independence in 1944 and becoming a symbol of sustainable development and innovation.
+			</Text>
+		</Replace>
+
+		<!-- SEYCHELLES -->
+		<Replace Tag="TXT_KEY_CITYSTATE_SEYCHELLES">
+			<Text>Seychelles</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_SEYCHELLES_ADJ">
+			<Text>Seychellois</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_SEYCHELLES_TEXT">
+			<Text>
+				The Seychelles is an Indian Ocean archipelago of 115 islands located northeast of Madagascar. Uninhabited until the 18th century, it later became an important waypoint along maritime trade routes between Africa and Asia.
+				[NEWLINE][NEWLINE]
+				After gaining independence in 1976, Seychelles developed into a prosperous island nation, renowned for its marine biodiversity, environmental conservation, and strategic maritime position.
+			</Text>
+		</Replace>
+
+		<!-- ================================================= -->
+		<!-- MERCANTILE CITY-STATES (NEW) -->
+		<!-- ================================================= -->
+
+		<!-- ADEN -->
+		<Replace Tag="TXT_KEY_CITYSTATE_ADEN">
+			<Text>Aden</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_ADEN_ADJ">
+			<Text>Yemeni</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_ADEN_TEXT">
+			<Text>
+				Aden is a historic port city on the Arabian Sea, commanding one of the most strategic maritime chokepoints in the world at the entrance to the Red Sea. Its sheltered natural harbor made it a vital hub for Indian Ocean commerce, linking Arabia, East Africa, India, and the Mediterranean.
+				[NEWLINE][NEWLINE]
+				Across the centuries Aden prospered as an entrepôt for spices, textiles, and incense, later serving as a major coaling and shipping station in the age of steam. Its geography and trade networks have long defined its importance.
+			</Text>
+		</Replace>
+
+		<!-- GARAMANTES -->
+		<Replace Tag="TXT_KEY_CITYSTATE_GARAMANTES">
+			<Text>Garamantes</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_GARAMANTES_ADJ">
+			<Text>Berber</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_GARAMANTES_TEXT">
+			<Text>
+				The Garamantes were an ancient Berber people who thrived in the Fezzan region of modern-day Libya between 500 BC and 700 AD. Masters of desert survival, they developed advanced underground irrigation systems known as foggaras, allowing them to sustain large settlements deep in the Sahara.
+				[NEWLINE][NEWLINE]
+				They maintained extensive trade networks linking the Mediterranean world with sub-Saharan Africa before gradually declining due to environmental stress and political change.
+			</Text>
+		</Replace>
+
+		<!-- HAVANA -->
+		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA">
+			<Text>Havana</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA_ADJ">
+			<Text>Cuban</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_HAVANA_TEXT">
+			<Text>
+				Havana grew into one of the most important ports of the Caribbean, guarding the sea lanes of the Spanish Americas and serving as a key staging point for Atlantic convoys. Its fortified harbor, shipyards, and merchant houses made it a center of trade, finance, and naval power in the early modern era.
+				[NEWLINE][NEWLINE]
+				Over time Havana developed a distinctive urban culture shaped by European, African, and American influences. Today its historic architecture and waterfront remain symbols of a city long defined by commerce and the sea.
+			</Text>
+		</Replace>
+
+		<!-- ================================================= -->
+		<!-- MILITARISTIC CITY-STATES (NEW) -->
+		<!-- ================================================= -->
+
+		<!-- DAKAR -->
+		<Replace Tag="TXT_KEY_CITYSTATE_DAKAR">
+			<Text>Dakar</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_DAKAR_ADJ">
+			<Text>Senegalese</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_DAKAR_TEXT">
+			<Text>
+				Founded in 1857 as a French military post, Dakar grew into the capital of French West Africa in 1902, becoming a major hub for trade and administration. Its strategic position on the Atlantic coast made it a critical naval and air base during World War II, and later a center for African independence movements.
+				[NEWLINE][NEWLINE]
+				Following Senegal’s independence in 1960, Dakar remained the economic and cultural heart of the nation. Today, it is known for its vibrant arts scene, bustling markets, and as the former host of the famous Paris–Dakar Rally.
+			</Text>
+		</Replace>
+
+		<!-- MAPUCHE -->
+		<Replace Tag="TXT_KEY_CITYSTATE_MAPUCHE">
+			<Text>Mapuche</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_MAPUCHE_ADJ">
+			<Text>Mapuche</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_MAPUCHE_TEXT">
+			<Text>
+				The Mapuche are an Indigenous people of southern Chile and Argentina, renowned for their resilience and military organization. For centuries they resisted conquest, first against the Inca Empire and later during prolonged conflicts with Spanish colonizers in what became known as the Arauco War.
+				[NEWLINE][NEWLINE]
+				Mapuche society was decentralized yet highly adaptable, led in times of war by elected military commanders known as tokis. Their legacy endures through language, cultural traditions, and continued efforts to preserve autonomy and land rights.
+			</Text>
+		</Replace>
+
+		<!-- ================================================= -->
+		<!-- RELIGIOUS CITY-STATES (NEW) -->
+		<!-- ================================================= -->
+
+		<!-- NAN MADOL -->
+		<Replace Tag="TXT_KEY_CITYSTATE_NAN_MADOL">
+			<Text>Nan Madol</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_NAN_MADOL_ADJ">
+			<Text>Pohnpeian</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_NAN_MADOL_TEXT">
+			<Text>
+				Nan Madol was a ceremonial and political center built on artificial islets off the coast of Pohnpei in Micronesia. Constructed from massive basalt columns, it served as the seat of the Saudeleur dynasty.
+				[NEWLINE][NEWLINE]
+				Often called the “Venice of the Pacific,” Nan Madol stands as one of the most remarkable feats of engineering in Oceania and a symbol of ritual authority in island societies.
+			</Text>
+		</Replace>
+
+		<!-- TIWANAKU -->
+		<Replace Tag="TXT_KEY_CITYSTATE_TIWANAKU">
+			<Text>Tiwanaku</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CITYSTATE_TIWANAKU_ADJ">
+			<Text>Tiwanakan</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_TIWANAKU_TEXT">
+			<Text>
+				Tiwanaku was a major religious and ceremonial center near Lake Titicaca, flourishing between 500 and 1000 AD. Its monumental stone architecture and astronomical alignments reflect a sophisticated spiritual worldview.
+				[NEWLINE][NEWLINE]
+				The influence of Tiwanaku spread across the Andes through pilgrimage, ritual exchange, and cultural diffusion, laying foundations for later Andean civilizations.
+			</Text>
+		</Replace>
+
+	</Language_en_US>
+</GameData>
