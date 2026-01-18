@@ -1,0 +1,78 @@
+# =========================
+# Allowlist .gitignore
+# =========================
+
+# Ignore everything by default
+*
+
+# But do not ignore directories (so whitelisting works inside them)
+!*/
+
+# Always keep Git control files
+!.gitignore
+!.gitattributes
+!.gitmodules
+
+# Documentation / text
+!*.md
+!*.txt
+!*.rtf
+
+# Code / data
+!*.lua
+!*.sql
+!*.xml
+!*.cpp
+!*.c
+!*.h
+!*.hpp
+!*.inl
+!*.py
+!*.json
+!*.ini
+!*.cfg
+
+# Civ V / ModBuddy / VS project metadata (keep only what you actually use)
+!*.civ5proj
+!*.civ5sln
+!*.sln
+!*.vcxproj
+!*.filters
+!*.modinfo
+!*.natvis
+!*.rc
+
+# Assets
+!*.dds
+!*.gr2
+!*.fbx
+!*.blend
+!*.ico
+!*.wav
+!*.mp3
+!*.fxsxml
+!*.fsmxml
+!*.ftsxml
+!*.ggxml
+!*.def
+!*.dge
+
+# Binaries you intentionally ship with source (use sparingly)
+!*.dll
+!*.lib
+
+# Installer scripting (if used)
+!*.iss
+
+# -------------------------
+# Explicitly ignore build/IDE output folders
+# (because they can contain whitelisted extensions)
+# -------------------------
+.vs/
+.idea/
+BuildOutput/
+BuildTemp/
+Build/
+Packages/
+clang-build/
+clang-output/

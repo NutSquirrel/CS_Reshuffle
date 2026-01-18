@@ -1,0 +1,176 @@
+[submodule "6UC_America"]
+	path = 6UC_America
+	url = https://github.com/NutSquirrel/6UC_America.git
+	branch = main
+[submodule "6UC_Arabia"]
+	path = 6UC_Arabia
+	url = https://github.com/NutSquirrel/6UC_Arabia.git
+	branch = main
+[submodule "6UC_Assyria"]
+	path = 6UC_Assyria
+	url = https://github.com/NutSquirrel/6UC_Assyria.git
+	branch = main
+[submodule "6UC_Austria"]
+	path = 6UC_Austria
+	url = https://github.com/NutSquirrel/6UC_Austria.git
+	branch = main
+[submodule "6UC_Aztec"]
+	path = 6UC_Aztec
+	url = https://github.com/NutSquirrel/6UC_Aztec.git
+	branch = main
+[submodule "6UC_Babylon"]
+	path = 6UC_Babylon
+	url = https://github.com/NutSquirrel/6UC_Babylon.git
+	branch = main
+[submodule "6UC_Brazil"]
+	path = 6UC_Brazil
+	url = https://github.com/NutSquirrel/6UC_Brazil.git
+	branch = main
+[submodule "6UC_Byzantium"]
+	path = 6UC_Byzantium
+	url = https://github.com/NutSquirrel/6UC_Byzantium.git
+	branch = main
+[submodule "6UC_Carthage"]
+	path = 6UC_Carthage
+	url = https://github.com/NutSquirrel/6UC_Carthage.git
+	branch = main
+[submodule "6UC_Celts"]
+	path = 6UC_Celts
+	url = https://github.com/NutSquirrel/6UC_Celts.git
+	branch = main
+[submodule "6UC_China"]
+	path = 6UC_China
+	url = https://github.com/NutSquirrel/6UC_China.git
+	branch = main
+[submodule "6UC_Denmark"]
+	path = 6UC_Denmark
+	url = https://github.com/NutSquirrel/6UC_Denmark.git
+	branch = main
+[submodule "6UC_Egypt"]
+	path = 6UC_Egypt
+	url = https://github.com/NutSquirrel/6UC_Egypt.git
+	branch = main
+[submodule "6UC_England"]
+	path = 6UC_England
+	url = https://github.com/NutSquirrel/6UC_England.git
+	branch = main
+[submodule "6UC_Ethiopia"]
+	path = 6UC_Ethiopia
+	url = https://github.com/NutSquirrel/6UC_Ethiopia.git
+	branch = main
+[submodule "6UC_France"]
+	path = 6UC_France
+	url = https://github.com/NutSquirrel/6UC_France.git
+	branch = main
+[submodule "6UC_Germany"]
+	path = 6UC_Germany
+	url = https://github.com/NutSquirrel/6UC_Germany.git
+	branch = main
+[submodule "6UC_Greece"]
+	path = 6UC_Greece
+	url = https://github.com/NutSquirrel/6UC_Greece.git
+	branch = main
+[submodule "6UC_Huns"]
+	path = 6UC_Huns
+	url = https://github.com/NutSquirrel/6UC_Huns.git
+	branch = main
+[submodule "6UC_Inca"]
+	path = 6UC_Inca
+	url = https://github.com/NutSquirrel/6UC_Inca.git
+	branch = main
+[submodule "6UC_India"]
+	path = 6UC_India
+	url = https://github.com/NutSquirrel/6UC_India.git
+	branch = main
+[submodule "6UC_Indonesia"]
+	path = 6UC_Indonesia
+	url = https://github.com/NutSquirrel/6UC_Indonesia.git
+	branch = main
+[submodule "6UC_Iroquois"]
+	path = 6UC_Iroquois
+	url = https://github.com/NutSquirrel/6UC_Iroquois.git
+	branch = main
+[submodule "6UC_Japan"]
+	path = 6UC_Japan
+	url = https://github.com/NutSquirrel/6UC_Japan.git
+	branch = main
+[submodule "6UC_Korea"]
+	path = 6UC_Korea
+	url = https://github.com/NutSquirrel/6UC_Korea.git
+	branch = main
+[submodule "6UC_Maya"]
+	path = 6UC_Maya
+	url = https://github.com/NutSquirrel/6UC_Maya.git
+	branch = main
+[submodule "6UC_Mongol"]
+	path = 6UC_Mongol
+	url = https://github.com/NutSquirrel/6UC_Mongol.git
+	branch = main
+[submodule "6UC_Morocco"]
+	path = 6UC_Morocco
+	url = https://github.com/NutSquirrel/6UC_Morocco.git
+	branch = main
+[submodule "6UC_Netherlands"]
+	path = 6UC_Netherlands
+	url = https://github.com/NutSquirrel/6UC_Netherlands.git
+	branch = main
+[submodule "6UC_Ottoman"]
+	path = 6UC_Ottoman
+	url = https://github.com/NutSquirrel/6UC_Ottoman.git
+	branch = main
+[submodule "6UC_Persia"]
+	path = 6UC_Persia
+	url = https://github.com/NutSquirrel/6UC_Persia.git
+	branch = main
+[submodule "6UC_Poland"]
+	path = 6UC_Poland
+	url = https://github.com/NutSquirrel/6UC_Poland.git
+	branch = main
+[submodule "6UC_Polynesia"]
+	path = 6UC_Polynesia
+	url = https://github.com/NutSquirrel/6UC_Polynesia.git
+	branch = main
+[submodule "6UC_Portugal"]
+	path = 6UC_Portugal
+	url = https://github.com/NutSquirrel/6UC_Portugal.git
+	branch = main
+[submodule "6UC_Rome"]
+	path = 6UC_Rome
+	url = https://github.com/NutSquirrel/6UC_Rome.git
+	branch = main
+[submodule "6UC_Russia"]
+	path = 6UC_Russia
+	url = https://github.com/NutSquirrel/6UC_Russia.git
+	branch = main
+[submodule "6UC_Shoshone"]
+	path = 6UC_Shoshone
+	url = https://github.com/NutSquirrel/6UC_Shoshone.git
+	branch = main
+[submodule "6UC_Siam"]
+	path = 6UC_Siam
+	url = https://github.com/NutSquirrel/6UC_Siam.git
+	branch = main
+[submodule "6UC_Songhai"]
+	path = 6UC_Songhai
+	url = https://github.com/NutSquirrel/6UC_Songhai.git
+	branch = main
+[submodule "6UC_Spain"]
+	path = 6UC_Spain
+	url = https://github.com/NutSquirrel/6UC_Spain.git
+	branch = main
+[submodule "6UC_Sweden"]
+	path = 6UC_Sweden
+	url = https://github.com/NutSquirrel/6UC_Sweden.git
+	branch = main
+[submodule "6UC_Venice"]
+	path = 6UC_Venice
+	url = https://github.com/NutSquirrel/6UC_Venice.git
+	branch = main
+[submodule "6UC_Zulu"]
+	path = 6UC_Zulu
+	url = https://github.com/NutSquirrel/6UC_Zulu.git
+	branch = main
+[submodule "6UC__Main"]
+	path = 6UC__Main
+	url = https://github.com/NutSquirrel/6UC__Main.git
+	branch = main
