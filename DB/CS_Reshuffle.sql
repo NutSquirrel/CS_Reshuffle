@@ -138,12 +138,12 @@ DELETE FROM Civilization_CityNames WHERE CivilizationType = 'CIVILIZATION_PERSIA
 --=======================================================================================================================
 -- NEW CITY-STATES
 --=======================================================================================================================
-INSERT INTO MinorCivilizations
-	(Type,                      Description,                      Civilopedia,								ShortDescription,					Adjective,								ArtDefineTag,                  DefaultPlayerColor,					ArtStyleType,				ArtStyleSuffix,  ArtStylePrefix,     MinorCivTrait) VALUES
+INSERT OR IGNORE INTO MinorCivilizations
+	(Type,                      Description,						Civilopedia,							ShortDescription,					Adjective,								ArtDefineTag,                  DefaultPlayerColor,					ArtStyleType,				ArtStyleSuffix,  ArtStylePrefix,     MinorCivTrait) VALUES
 -- Cultured
 	('MINOR_CIV_CARAL',          'TXT_KEY_CITYSTATE_CARAL',         'TXT_KEY_CIV5_GAIA_CARAL_TEXT',			'TXT_KEY_CITYSTATE_CARAL',			'TXT_KEY_CITYSTATE_CARAL_ADJ',			'ART_DEF_CIVILIZATION_MINOR',  'PLAYERCOLOR_MINOR_BRATISLAVA',		'ARTSTYLE_SOUTH_AMERICA',	'_AMER',         'AMERICAN',         'MINOR_TRAIT_CULTURED'),
 	('MINOR_CIV_GREAT_ZIMBAWE',  'TXT_KEY_CITYSTATE_GREAT_ZIMBAWE', 'TXT_KEY_CIV5_GAIA_GREAT_ZIMBAWE_TEXT',	'TXT_KEY_CITYSTATE_GREAT_ZIMBAWE',	'TXT_KEY_CITYSTATE_GREAT_ZIMBAWE_ADJ',	'ART_DEF_CIVILIZATION_MINOR',  'PLAYERCOLOR_MINOR_BRUSSELS',		'ARTSTYLE_AFRICA',			'_AFRI',         'AFRICAN',          'MINOR_TRAIT_CULTURED'),
-	('MINOR_CIV_SIOUX',         'TXT_KEY_CITYSTATE_SIOUX',        'TXT_KEY_CIV5_GAIA_SIOUX_TEXT',		'TXT_KEY_CITYSTATE_SIOUX',			'TXT_KEY_CITYSTATE_SIOUX_ADJ',			'ART_DEF_CIVILIZATION_MINOR',  'PLAYERCOLOR_MINOR_BUCHAREST',		'ARTSTYLE_SOUTH_AMERICA',	'_AMER',         'AMERICAN',         'MINOR_TRAIT_CULTURED'),
+	('MINOR_CIV_SIOUX',          'TXT_KEY_CITYSTATE_SIOUX',         'TXT_KEY_CIV5_GAIA_SIOUX_TEXT',			'TXT_KEY_CITYSTATE_SIOUX',			'TXT_KEY_CITYSTATE_SIOUX_ADJ',			'ART_DEF_CIVILIZATION_MINOR',  'PLAYERCOLOR_MINOR_BUCHAREST',		'ARTSTYLE_SOUTH_AMERICA',	'_AMER',         'AMERICAN',         'MINOR_TRAIT_CULTURED'),
 -- Maritime
 	('MINOR_CIV_REYKJAVIK',      'TXT_KEY_CITYSTATE_REYKJAVIK',     'TXT_KEY_CIV5_GAIA_REYKJAVIK_TEXT',		'TXT_KEY_CITYSTATE_REYKJAVIK',		'TXT_KEY_CITYSTATE_REYKJAVIK_ADJ',		'ART_DEF_CIVILIZATION_MINOR',  'PLAYERCOLOR_MINOR_MOGADISHU',		'ARTSTYLE_EUROPEAN',		'_EURO',         'EUROPEAN',         'MINOR_TRAIT_MARITIME'),
 	('MINOR_CIV_SEYCHELLES',     'TXT_KEY_CITYSTATE_SEYCHELLES',    'TXT_KEY_CIV5_GAIA_SEYCHELLES_TEXT',	'TXT_KEY_CITYSTATE_SEYCHELLES',		'TXT_KEY_CITYSTATE_SEYCHELLES_ADJ',		'ART_DEF_CIVILIZATION_MINOR',  'PLAYERCOLOR_MINOR_ORMUS',			'ARTSTYLE_AFRICA',			'_AFRI',         'AFRICAN',          'MINOR_TRAIT_MARITIME'),
@@ -162,7 +162,7 @@ INSERT INTO MinorCivilizations
 -- AUDIO
 --------------------------------------------------------------------------
 
-INSERT INTO Audio_2DSounds 
+INSERT OR IGNORE INTO Audio_2DSounds 
 	(ScriptID,							SoundID,						DontTriggerDuplicates,	TaperSoundtrackVolume,	MinVolume,	MaxVolume,	SoundType) VALUES
 -- Cultured
 	('AS2D_MINOR_CIV_CARAL',			'SND_MINOR_CIV_BRATISLAVA',		1,	0.0,	50,	50,	'GAME_MUSIC_STINGS'),
@@ -172,11 +172,11 @@ INSERT INTO Audio_2DSounds
 	('AS2D_MINOR_CIV_REYKJAVIK',		'SND_MINOR_CIV_MOGADISHU',		1,	0.0,	50,	50,	'GAME_MUSIC_STINGS'),
 	('AS2D_MINOR_CIV_SEYCHELLES',		'SND_MINOR_CIV_ORMUS',			1,	0.0,	50,	50,	'GAME_MUSIC_STINGS'),
 -- Mercantile	
-	('AS2D_MINOR_CIV_ADAN',				'SND_MINOR_CIV_ANTANANARIVO',	1,	0.0,	50,	50,	'GAME_MUSIC_STINGS'),
+	('AS2D_MINOR_CIV_ADEN',				'SND_MINOR_CIV_ANTANANARIVO',	1,	0.0,	50,	50,	'GAME_MUSIC_STINGS'),
 	('AS2D_MINOR_CIV_HAVANA',			'SND_MINOR_CIV_ANTWERP',		1,	0.0,	50,	50,	'GAME_MUSIC_STINGS'),
 	('AS2D_MINOR_CIV_GARAMANTES',		'SND_MINOR_CIV_CAHOKIA',		1,	0.0,	50,	50,	'GAME_MUSIC_STINGS'),
 -- Militaristic	
-	('AS2D_MINOR_CIV_DAKAR',			'SND_MINOR_CIV_HONOI',			1,	0.0,	50,	50,	'GAME_MUSIC_STINGS'),
+	('AS2D_MINOR_CIV_DAKAR',			'SND_MINOR_CIV_HANOI',			1,	0.0,	50,	50,	'GAME_MUSIC_STINGS'),
 	('AS2D_MINOR_CIV_MAPUCHE',			'SND_MINOR_CIV_MBANZA_KONGO',	1,	0.0,	50,	50,	'GAME_MUSIC_STINGS'),
 -- Religious
 	('AS2D_MINOR_CIV_NAN_MADOL',		'SND_MINOR_CIV_JERUSALEM',		1,	0.0,	50,	50,	'GAME_MUSIC_STINGS'),
@@ -185,6 +185,20 @@ INSERT INTO Audio_2DSounds
 --------------------------------------------------------------------------
 -- CITY NAMES
 --------------------------------------------------------------------------
+DELETE FROM MinorCivilization_CityNames WHERE MinorCivType IN (
+	'MINOR_CIV_CARAL',
+	'MINOR_CIV_GREAT_ZIMBAWE',
+	'MINOR_CIV_SIOUX',
+	'MINOR_CIV_REYKJAVIK',
+	'MINOR_CIV_SEYCHELLES',
+	'MINOR_CIV_ADEN',
+	'MINOR_CIV_HAVANA',
+	'MINOR_CIV_GARAMANTES',
+	'MINOR_CIV_DAKAR',
+	'MINOR_CIV_MAPUCHE',
+	'MINOR_CIV_NAN_MADOL',
+	'MINOR_CIV_TIWANAKU'
+);
 INSERT INTO MinorCivilization_CityNames
 	(MinorCivType,              CityName) VALUES
 -- Cultured
@@ -195,7 +209,7 @@ INSERT INTO MinorCivilization_CityNames
 	('MINOR_CIV_REYKJAVIK',      'TXT_KEY_CITYSTATE_REYKJAVIK'),
 	('MINOR_CIV_SEYCHELLES',     'TXT_KEY_CITYSTATE_SEYCHELLES'),
 -- Mercantile
-	('MINOR_CIV_ADAN',           'TXT_KEY_CITYSTATE_ADAN'),
+	('MINOR_CIV_ADEN',           'TXT_KEY_CITYSTATE_ADEN'),
 	('MINOR_CIV_HAVANA',		 'TXT_KEY_CITYSTATE_HAVANA'),
 	('MINOR_CIV_GARAMANTES',     'TXT_KEY_CITYSTATE_GARAMANTES'),
 -- Militaristic
@@ -210,6 +224,20 @@ DELETE FROM Civilization_CityNames WHERE CivilizationType = 'CIVILIZATION_SONGHA
 --------------------------------------------------------------------------
 -- FLAVORS
 --------------------------------------------------------------------------
+DELETE FROM MinorCivilization_Flavors WHERE MinorCivType IN (
+	'MINOR_CIV_CARAL',
+	'MINOR_CIV_GREAT_ZIMBAWE',
+	'MINOR_CIV_SIOUX',
+	'MINOR_CIV_REYKJAVIK',
+	'MINOR_CIV_SEYCHELLES',
+	'MINOR_CIV_ADEN',
+	'MINOR_CIV_HAVANA',
+	'MINOR_CIV_GARAMANTES',
+	'MINOR_CIV_DAKAR',
+	'MINOR_CIV_MAPUCHE',
+	'MINOR_CIV_NAN_MADOL',
+	'MINOR_CIV_TIWANAKU'
+);
 INSERT INTO MinorCivilization_Flavors
 	(MinorCivType,              FlavorType,                 Flavor) VALUES
 -- Cultured
@@ -222,7 +250,7 @@ INSERT INTO MinorCivilization_Flavors
 	('MINOR_CIV_SEYCHELLES',     'FLAVOR_GROWTH',              8),
 	('MINOR_CIV_SEYCHELLES',     'FLAVOR_NAVAL',               8),
 -- Mercantile
-	('MINOR_CIV_ADAN',           'FLAVOR_GOLD',               10),
+	('MINOR_CIV_ADEN',           'FLAVOR_GOLD',               10),
 	('MINOR_CIV_HAVANA',		 'FLAVOR_GOLD',               10),
 	('MINOR_CIV_GARAMANTES',     'FLAVOR_GOLD',               10),
 -- Militaristic
