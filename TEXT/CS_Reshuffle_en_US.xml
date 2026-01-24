@@ -48,40 +48,25 @@
 			</Text>
 		</Replace>
 
-		<!-- SIOUX -->
-		<Replace Tag="TXT_KEY_CITYSTATE_SIOUX">
-			<Text>Sioux</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_SIOUX_ADJ">
-			<Text>Sioux</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_SIOUX_TEXT">
-			<Text>
-				The Sioux, known collectively as the Oceti Sakowin or “Seven Council Fires,” are a confederation of Native American nations of the Great Plains. Originally woodland peoples, they adopted the horse culture of the plains in the 18th century, becoming skilled hunters, traders, and warriors.
-				[NEWLINE][NEWLINE]
-				Throughout the 19th century, the Sioux fiercely resisted U.S. expansion, playing central roles in conflicts such as the Great Sioux War. Today, Sioux communities continue to preserve their cultural identity, traditions, and sovereignty.
-			</Text>
-		</Replace>
-
 		<!-- ================================================= -->
 		<!-- MARITIME CITY-STATES (NEW) -->
 		<!-- ================================================= -->
 
-		<!-- REYKJAVIK -->
-		<Replace Tag="TXT_KEY_CITYSTATE_REYKJAVIK">
-			<Text>Reykjavik</Text>
+		<!-- HAVANA -->
+		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA">
+			<Text>Havana</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_REYKJAVIK_ADJ">
-			<Text>Icelander</Text>
+		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA_ADJ">
+			<Text>Cuban</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_REYKJAVIK_TEXT">
+		<Replace Tag="TXT_KEY_CIV5_GAIA_HAVANA_TEXT">
 			<Text>
-				Founded by Norse settlers in the late 9th century, Reykjavik began as a small coastal settlement sustained by fishing and geothermal resources. Its name, meaning “Bay of Smokes,” reflects the steam rising from nearby hot springs.
+				Havana grew into one of the most important ports of the Caribbean, guarding the sea lanes of the Spanish Americas and serving as a key staging point for Atlantic convoys. Its fortified harbor, shipyards, and merchant houses made it a center of trade, finance, and naval power in the early modern era.
 				[NEWLINE][NEWLINE]
-				In the modern era, Reykjavik emerged as the political and cultural center of Iceland, leading the nation’s peaceful independence in 1944 and becoming a symbol of sustainable development and innovation.
+				Over time Havana developed a distinctive urban culture shaped by European, African, and American influences. Today its historic architecture and waterfront remain symbols of a city long defined by commerce and the sea.
 			</Text>
 		</Replace>
-
+		
 		<!-- SEYCHELLES -->
 		<Replace Tag="TXT_KEY_CITYSTATE_SEYCHELLES">
 			<Text>Seychelles</Text>
@@ -116,54 +101,9 @@
 			</Text>
 		</Replace>
 
-		<!-- GARAMANTES -->
-		<Replace Tag="TXT_KEY_CITYSTATE_GARAMANTES">
-			<Text>Garamantes</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_GARAMANTES_ADJ">
-			<Text>Berber</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_GARAMANTES_TEXT">
-			<Text>
-				The Garamantes were an ancient Berber people who thrived in the Fezzan region of modern-day Libya between 500 BC and 700 AD. Masters of desert survival, they developed advanced underground irrigation systems known as foggaras, allowing them to sustain large settlements deep in the Sahara.
-				[NEWLINE][NEWLINE]
-				They maintained extensive trade networks linking the Mediterranean world with sub-Saharan Africa before gradually declining due to environmental stress and political change.
-			</Text>
-		</Replace>
-
-		<!-- HAVANA -->
-		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA">
-			<Text>Havana</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA_ADJ">
-			<Text>Cuban</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_HAVANA_TEXT">
-			<Text>
-				Havana grew into one of the most important ports of the Caribbean, guarding the sea lanes of the Spanish Americas and serving as a key staging point for Atlantic convoys. Its fortified harbor, shipyards, and merchant houses made it a center of trade, finance, and naval power in the early modern era.
-				[NEWLINE][NEWLINE]
-				Over time Havana developed a distinctive urban culture shaped by European, African, and American influences. Today its historic architecture and waterfront remain symbols of a city long defined by commerce and the sea.
-			</Text>
-		</Replace>
-
 		<!-- ================================================= -->
 		<!-- MILITARISTIC CITY-STATES (NEW) -->
 		<!-- ================================================= -->
-
-		<!-- DAKAR -->
-		<Replace Tag="TXT_KEY_CITYSTATE_DAKAR">
-			<Text>Dakar</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_DAKAR_ADJ">
-			<Text>Senegalese</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_DAKAR_TEXT">
-			<Text>
-				Founded in 1857 as a French military post, Dakar grew into the capital of French West Africa in 1902, becoming a major hub for trade and administration. Its strategic position on the Atlantic coast made it a critical naval and air base during World War II, and later a center for African independence movements.
-				[NEWLINE][NEWLINE]
-				Following Senegal’s independence in 1960, Dakar remained the economic and cultural heart of the nation. Today, it is known for its vibrant arts scene, bustling markets, and as the former host of the famous Paris–Dakar Rally.
-			</Text>
-		</Replace>
 
 		<!-- MAPUCHE -->
 		<Replace Tag="TXT_KEY_CITYSTATE_MAPUCHE">

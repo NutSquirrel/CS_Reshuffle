@@ -48,37 +48,22 @@
 			</Text>
 		</Replace>
 
-		<!-- 수(Sioux) -->
-		<Replace Tag="TXT_KEY_CITYSTATE_SIOUX">
-			<Text>수</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_SIOUX_ADJ">
-			<Text>수</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_SIOUX_TEXT">
-			<Text>
-				수 족은 ‘오체티 샤코윈(일곱 의회 불)’으로 알려진 북아메리카 대평원의 원주민 연합체이다. 원래 삼림 지대에 거주하던 이들은 18세기에 말 문화를 받아들여 뛰어난 사냥꾼이자 상인, 전사로 성장했다.
-				[NEWLINE][NEWLINE]
-				19세기 동안 수 족은 미국의 서부 확장에 강력히 저항했으며, 대수 전쟁과 같은 주요 분쟁에서 중심적인 역할을 수행했다. 오늘날에도 수 공동체는 문화적 정체성과 전통, 자치권을 유지하고 있다.
-			</Text>
-		</Replace>
-
 		<!-- ================================================= -->
 		<!-- 해양 도시국가 (신규) -->
 		<!-- ================================================= -->
-
-		<!-- 레이캬비크 -->
-		<Replace Tag="TXT_KEY_CITYSTATE_REYKJAVIK">
-			<Text>레이캬비크</Text>
+		
+		<!-- 하바나 -->
+		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA">
+			<Text>하바나</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_REYKJAVIK_ADJ">
-			<Text>아이슬란드</Text>
+		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA_ADJ">
+			<Text>쿠바</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_REYKJAVIK_TEXT">
+		<Replace Tag="TXT_KEY_CIV5_GAIA_HAVANA_TEXT">
 			<Text>
-				레이캬비크는 9세기 말 북유럽 정착민들에 의해 건설되었으며, 어업과 지열 자원에 의존한 작은 해안 마을에서 성장하였다. 도시 이름은 인근 온천에서 피어오르는 김을 뜻하는 ‘연기의 만’에서 유래한다.
+				하바나는 카리브해에서 가장 중요한 항구 중 하나로 성장하여 스페인령 아메리카의 해상 교통을 보호하였다. 요새화된 항만, 조선소, 상업 시설은 도시를 교역과 금융, 해군력의 중심지로 만들었다.
 				[NEWLINE][NEWLINE]
-				근대에 들어 레이캬비크는 아이슬란드의 정치·문화 중심지로 부상하여 1944년 평화적인 독립을 이끌었으며, 오늘날에는 지속 가능성과 혁신의 상징으로 평가받는다.
+				시간이 흐르며 하바나는 유럽, 아프리카, 아메리카 문화가 융합된 독특한 도시 문화를 형성하였으며, 이는 오늘날까지 건축과 항구 경관에 남아 있다.
 			</Text>
 		</Replace>
 
@@ -115,56 +100,11 @@
 				수세기 동안 아덴은 향신료, 직물, 유향 무역의 중심지였으며, 증기선 시대에는 중요한 보급 항구로 기능했다.
 			</Text>
 		</Replace>
-
-		<!-- 가라만테스 -->
-		<Replace Tag="TXT_KEY_CITYSTATE_GARAMANTES">
-			<Text>가라만테스</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_GARAMANTES_ADJ">
-			<Text>베르베르</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_GARAMANTES_TEXT">
-			<Text>
-				가라만테스는 기원전 500년부터 서기 700년까지 오늘날 리비아의 페잔 지역에서 번성한 고대 베르베르 민족이다. 이들은 포가라로 불리는 지하 관개 시스템을 통해 사하라 사막 깊숙한 곳에서도 대규모 정착지를 유지했다.
-				[NEWLINE][NEWLINE]
-				가라만테스는 지중해와 사하라 이남 아프리카를 잇는 광범위한 교역망을 유지했으나, 환경 변화와 정치적 요인으로 점차 쇠퇴하였다.
-			</Text>
-		</Replace>
-
-		<!-- 하바나 -->
-		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA">
-			<Text>하바나</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA_ADJ">
-			<Text>쿠바</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_HAVANA_TEXT">
-			<Text>
-				하바나는 카리브해에서 가장 중요한 항구 중 하나로 성장하여 스페인령 아메리카의 해상 교통을 보호하였다. 요새화된 항만, 조선소, 상업 시설은 도시를 교역과 금융, 해군력의 중심지로 만들었다.
-				[NEWLINE][NEWLINE]
-				시간이 흐르며 하바나는 유럽, 아프리카, 아메리카 문화가 융합된 독특한 도시 문화를 형성하였으며, 이는 오늘날까지 건축과 항구 경관에 남아 있다.
-			</Text>
-		</Replace>
-
+		
 		<!-- ================================================= -->
 		<!-- 군사 도시국가 (신규) -->
 		<!-- ================================================= -->
-
-		<!-- 다카르 -->
-		<Replace Tag="TXT_KEY_CITYSTATE_DAKAR">
-			<Text>다카르</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_DAKAR_ADJ">
-			<Text>세네갈</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_DAKAR_TEXT">
-			<Text>
-				다카르는 1857년 프랑스 군사 기지로 설립되었으며, 1902년 프랑스령 서아프리카의 수도가 되었다. 대서양 연안의 전략적 위치로 인해 중요한 해군 및 공군 기지로 발전했다.
-				[NEWLINE][NEWLINE]
-				1960년 세네갈 독립 이후에도 다카르는 국가의 경제·문화 중심지이자 아프리카 정치의 핵심 거점으로 남아 있다.
-			</Text>
-		</Replace>
-
+		
 		<!-- 마푸체 -->
 		<Replace Tag="TXT_KEY_CITYSTATE_MAPUCHE">
 			<Text>마푸체</Text>

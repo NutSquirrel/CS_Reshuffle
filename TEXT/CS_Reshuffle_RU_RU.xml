@@ -2,133 +2,157 @@
 <!-- Created by Gaia -->
 <GameData>
 	<Language_RU_RU>
-<!-- CULTURED (8) -->
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_BOGOTA">
-			<Text>Президент Симон Боливар</Text>
+
+		<!-- ================================================= -->
+		<!-- EXISTING CITY-STATES (UPDATE ONLY) -->
+		<!-- ================================================= -->
+
+		<!-- DUBROVNIK (RAGUSA) -->
+		<!-- must use update and not replace for existing City-States -->
+		<Update>
+			<Set Text="Дубровник"/>
+			<Where Tag="TXT_KEY_CITYSTATE_RAGUSA"/>
+		</Update>
+
+		<!-- ================================================= -->
+		<!-- CULTURED CITY-STATES (NEW) -->
+		<!-- ================================================= -->
+
+		<!-- CARAL -->
+		<Replace Tag="TXT_KEY_CITYSTATE_CARAL">
+			<Text>Караль</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_CARAL">
-			<Text>Жреческий совет Караля</Text>
+		<Replace Tag="TXT_KEY_CITYSTATE_CARAL_ADJ">
+			<Text>Каральский</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_GREAT_ZIMBAWE">
-			<Text>Мамбо Ньяцимба Муто́та</Text>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_CARAL_TEXT">
+			<Text>
+				Караль, расположенный в долине Супе на побережье Перу, является одним из древнейших известных городских центров в мире и процветал около 2600 года до н. э. Его монументальные пирамиды, заглублённые площади и церемониальная архитектура свидетельствуют о высокоорганизованном обществе, основанном на ритуалах, торговле и коллективном управлении.
+				[NEWLINE][NEWLINE]
+				Примечательно, что в Карале отсутствуют следы войн или укреплений, что делает его ранним примером сложной цивилизации, основанной на религиозной власти и региональном обмене, а не на завоеваниях.
+			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_KIEV">
-			<Text>Великий князь Ярослав Мудрый</Text>
+
+		<!-- GREAT ZIMBABWE -->
+		<Replace Tag="TXT_KEY_CITYSTATE_GREAT_ZIMBAWE">
+			<Text>Великий Зимбабве</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_KYZYL">
-			<Text>Председатель Хертек Анчимаа-Тока</Text>
+		<Replace Tag="TXT_KEY_CITYSTATE_GREAT_ZIMBAWE_ADJ">
+			<Text>Зимбабвийский</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_SIOUX">
-			<Text>Вождь Сидящий Бык</Text>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_GREAT_ZIMBAWE_TEXT">
+			<Text>
+				Великий Зимбабве был столицей могущественного африканского государства в период с XI по XV век. Его массивные каменные ограждения и башни, построенные без использования раствора, свидетельствуют о высоком уровне инженерного мастерства и централизованной власти.
+				[NEWLINE][NEWLINE]
+				Город контролировал региональные торговые сети, связывавшие внутренние районы южной Африки с побережьем суахили, экспортируя золото и слоновую кость в обмен на предметы роскоши из мира Индийского океана.
+			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_PRAGUE">
-			<Text>Король Йиржи из Подебрад</Text>
+
+		<!-- ================================================= -->
+		<!-- MARITIME CITY-STATES (NEW) -->
+		<!-- ================================================= -->
+
+		<!-- HAVANA -->
+		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA">
+			<Text>Гавана</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_YEREVAN">
-			<Text>Император Тигран II Великий</Text>
+		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA_ADJ">
+			<Text>Кубинский</Text>
 		</Replace>
-<!-- MARITIME (9) -->
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_BYBLOS">
-			<Text>Царь Ахира́м</Text>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_HAVANA_TEXT">
+			<Text>
+				Гавана выросла в один из важнейших портов Карибского бассейна, охраняя морские пути Испанской Америки и служа ключевым пунктом сбора атлантических конвоев. Её укреплённая гавань, верфи и купеческие дома сделали город центром торговли, финансов и морской мощи в раннюю Новую эпоху.
+				[NEWLINE][NEWLINE]
+				Со временем Гавана сформировала самобытную городскую культуру под влиянием европейских, африканских и американских традиций. Сегодня её историческая архитектура и набережные остаются символами города, веками определяемого торговлей и морем.
+			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_CAPE_TOWN">
-			<Text>Командор Ян ван Рибек</Text>
+
+		<!-- SEYCHELLES -->
+		<Replace Tag="TXT_KEY_CITYSTATE_SEYCHELLES">
+			<Text>Сейшельские острова</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_MANILA">
-			<Text>Хосе Рисаль</Text>
+		<Replace Tag="TXT_KEY_CITYSTATE_SEYCHELLES_ADJ">
+			<Text>Сейшельский</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_MOMBASA">
-			<Text>Шейх Мвита Мкуу</Text>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_SEYCHELLES_TEXT">
+			<Text>
+				Сейшельские острова — архипелаг в Индийском океане, состоящий из 115 островов и расположенный к северо-востоку от Мадагаскара. До XVIII века они оставались необитаемыми, после чего стали важным пунктом на морских торговых путях между Африкой и Азией.
+				[NEWLINE][NEWLINE]
+				После обретения независимости в 1976 году Сейшелы превратились в процветающее островное государство, известное своим морским биоразнообразием, охраной окружающей среды и стратегическим морским положением.
+			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_PANAMA_CITY">
-			<Text>Генерал Викториано Лоренсо</Text>
+
+		<!-- ================================================= -->
+		<!-- MERCANTILE CITY-STATES (NEW) -->
+		<!-- ================================================= -->
+
+		<!-- ADEN -->
+		<Replace Tag="TXT_KEY_CITYSTATE_ADEN">
+			<Text>Аден</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_RAGUSA">
-			<Text>Ректор Марино Гоцце</Text>
+		<Replace Tag="TXT_KEY_CITYSTATE_ADEN_ADJ">
+			<Text>Йеменский</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_REYKJAVIK">
-			<Text>Президент Свейнн Бьёрнссон</Text>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_ADEN_TEXT">
+			<Text>
+				Аден — исторический портовый город на побережье Аравийского моря, контролирующий один из самых стратегически важных морских проходов в мире — вход в Красное море. Его защищённая естественная гавань сделала город ключевым узлом торговли Индийского океана, связывавшим Аравию, Восточную Африку, Индию и Средиземноморье.
+				[NEWLINE][NEWLINE]
+				На протяжении веков Аден процветал как перевалочный пункт торговли специями, тканями и благовониями, а позднее стал важной угольной и судоходной станцией в эпоху пара. Его география и торговые связи издавна определяли его значение.
+			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_SEYCHELLES">
-			<Text>Президент Франс-Альбер Рене</Text>
+
+		<!-- ================================================= -->
+		<!-- MILITARISTIC CITY-STATES (NEW) -->
+		<!-- ================================================= -->
+
+		<!-- MAPUCHE -->
+		<Replace Tag="TXT_KEY_CITYSTATE_MAPUCHE">
+			<Text>Мапуче</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_WELLINGTON">
-			<Text>Премьер-министр Ричард Седдон</Text>
+		<Replace Tag="TXT_KEY_CITYSTATE_MAPUCHE_ADJ">
+			<Text>Мапуче</Text>
 		</Replace>
-<!-- MERCANTILE (9) -->
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_ADEN">
-			<Text>Королева Арва ас-Сулайхи</Text>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_MAPUCHE_TEXT">
+			<Text>
+				Мапуче — коренной народ южных районов Чили и Аргентины, известный своей стойкостью и военной организацией. На протяжении веков они успешно сопротивлялись завоеваниям, сначала со стороны Империи инков, а затем в ходе длительных конфликтов с испанскими колонизаторами, известных как Арауканская война.
+				[NEWLINE][NEWLINE]
+				Общество мапуче было децентрализованным, но высокоадаптивным; в военное время его возглавляли избираемые военные вожди, называемые токи. Их наследие сохраняется в языке, культурных традициях и продолжающейся борьбе за автономию и земельные права.
+			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_COLOMBO">
-			<Text>Премьер-министр Д. С. Сенанаяке</Text>
+
+		<!-- ================================================= -->
+		<!-- RELIGIOUS CITY-STATES (NEW) -->
+		<!-- ================================================= -->
+
+		<!-- NAN MADOL -->
+		<Replace Tag="TXT_KEY_CITYSTATE_NAN_MADOL">
+			<Text>Нан-Мадол</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_GARAMANTES">
-			<Text>Царь Залил</Text>
+		<Replace Tag="TXT_KEY_CITYSTATE_NAN_MADOL_ADJ">
+			<Text>Понпейский</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_HAVANA">
-			<Text>Франсиско де Аранго-и-Парреньо</Text>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_NAN_MADOL_TEXT">
+			<Text>
+				Нан-Мадол был церемониальным и политическим центром, построенным на искусственных островках у побережья Понпеи в Микронезии. Сооружённый из массивных базальтовых колонн, он служил резиденцией династии Сауделер.
+				[NEWLINE][NEWLINE]
+				Часто называемый «Венецией Тихого океана», Нан-Мадол является одним из самых выдающихся инженерных достижений Океании и символом ритуальной власти в островных обществах.
+			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_HONG_KONG">
-			<Text>Сэр Кай Хо</Text>
+
+		<!-- TIWANAKU -->
+		<Replace Tag="TXT_KEY_CITYSTATE_TIWANAKU">
+			<Text>Тиуанако</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_MALACCA">
-			<Text>Султан Мансур Шах</Text>
+		<Replace Tag="TXT_KEY_CITYSTATE_TIWANAKU_ADJ">
+			<Text>Тиуанакский</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_TYRE">
-			<Text>Царь Хирам I</Text>
+		<Replace Tag="TXT_KEY_CIV5_GAIA_TIWANAKU_TEXT">
+			<Text>
+				Тиуанако был крупным религиозным и церемониальным центром в районе озера Титикака, процветавшим между 500 и 1000 годами н. э. Его монументальная каменная архитектура и астрономические ориентиры отражают сложное духовное мировоззрение.
+				[NEWLINE][NEWLINE]
+				Влияние Тиуанако распространялось по всему Андскому региону через паломничество, ритуальный обмен и культурную диффузию, заложив основы для последующих андских цивилизаций.
+			</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_VILNIUS">
-			<Text>Великий князь Гедимин</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_ZANZIBAR">
-			<Text>Султан Саид Занзибарский</Text>
-		</Replace>
-<!-- MILITARISTIC (8) -->
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_ALMATY">
-			<Text>Хан Жанибек Мудрый</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_BELGRADE">
-			<Text>Верховный вождь Караджорджe Петрович</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_DAKAR">
-			<Text>Президент Леопольд Седар Сенгор</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_KABUL">
-			<Text>Эмир Дост Мухаммад-хан</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_MAPUCHE">
-			<Text>Лаутаро Токи</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_SIDON">
-			<Text>Царь Эшмуназар II</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_SOFIA">
-			<Text>Царь Иван Асен II</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_VALLETTA">
-			<Text>Великий магистр Джованни Паоло Ласкарис</Text>
-		</Replace>
-<!-- RELIGIOUS (7) -->
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_GENEVA">
-			<Text>Жан Кальвин</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_IFE">
-			<Text>Оони Акинмойеро</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_KATHMANDU">
-			<Text>Король Трибхуван</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_LA_VENTA">
-			<Text>Ольмекское жречество</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_LHASA">
-			<Text>Далай-лама</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_NAN_MADOL">
-			<Text>Жрецы-цари Сауделеур</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_GAIA_CSLEADER_TIWANAKU">
-			<Text>Жрецы-цари Тиуанако</Text>
-		</Replace>
+
 	</Language_RU_RU>
 </GameData>

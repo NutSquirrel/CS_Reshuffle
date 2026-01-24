@@ -1,6 +1,6 @@
 -- written by GAIA using Notepad++
 CREATE TABLE IF NOT EXISTS Sapiens_DBUpdates (Name TEXT PRIMARY KEY, Value INTEGER DEFAULT 0);
-INSERT OR IGNORE INTO Sapiens_DBUpdates (Name) VALUES ('PlayerColors');
+INSERT OR IGNORE INTO Sapiens_DBUpdates (Name) VALUES ('CS_Colors');
 --=======================================================================================================================
 -- PLAYER COLORS
 --=======================================================================================================================
@@ -211,4 +211,4 @@ UPDATE MinorCivilizations SET DefaultPlayerColor = 'PLAYERCOLOR_MINOR_VATICAN_CI
 UPDATE MinorCivilizations SET DefaultPlayerColor = 'PLAYERCOLOR_MINOR_WITTENBERG'     WHERE Type = 'MINOR_CIV_WITTENBERG';
 
 --=======================================================================================================================
-UPDATE Sapiens_DBUpdates SET Value = 1 WHERE Name = 'PlayerColors';
+UPDATE Sapiens_DBUpdates SET Value = 1 WHERE Name = 'CS_Colors';

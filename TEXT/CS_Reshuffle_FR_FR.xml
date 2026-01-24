@@ -47,41 +47,26 @@
 				La cité contrôlait de vastes réseaux commerciaux reliant l’intérieur de l’Afrique australe à la côte swahilie, exportant or et ivoire en échange de biens de luxe provenant de l’océan Indien.
 			</Text>
 		</Replace>
-
-		<!-- SIOUX -->
-		<Replace Tag="TXT_KEY_CITYSTATE_SIOUX">
-			<Text>Sioux</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_SIOUX_ADJ">
-			<Text>Sioux</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_SIOUX_TEXT">
-			<Text>
-				Les Sioux, connus collectivement sous le nom d’Oceti Sakowin ou « Sept Feux du Conseil », sont une confédération de peuples autochtones des Grandes Plaines d’Amérique du Nord. Originellement des peuples forestiers, ils adoptèrent au XVIIIe siècle la culture équestre des plaines, devenant d’habiles chasseurs, commerçants et guerriers.
-				[NEWLINE][NEWLINE]
-				Au XIXe siècle, les Sioux résistèrent fermement à l’expansion des États-Unis et jouèrent un rôle central dans des conflits tels que la Grande Guerre des Sioux. Aujourd’hui, les communautés sioux continuent de préserver leur identité culturelle, leurs traditions et leur souveraineté.
-			</Text>
-		</Replace>
-
+		
 		<!-- ================================================= -->
 		<!-- CITÉS-ÉTATS MARITIMES (NOUVELLES) -->
 		<!-- ================================================= -->
 
-		<!-- REYKJAVÍK -->
-		<Replace Tag="TXT_KEY_CITYSTATE_REYKJAVIK">
-			<Text>Reykjavík</Text>
+		<!-- HAVANE -->
+		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA">
+			<Text>La Havane</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_REYKJAVIK_ADJ">
-			<Text>Islandais</Text>
+		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA_ADJ">
+			<Text>Cubain</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_REYKJAVIK_TEXT">
+		<Replace Tag="TXT_KEY_CIV5_GAIA_HAVANA_TEXT">
 			<Text>
-				Fondée à la fin du IXe siècle par des colons nordiques, Reykjavík se développa à partir d’un petit village côtier vivant de la pêche et des ressources géothermiques. Son nom, signifiant « baie des fumées », fait référence à la vapeur des sources chaudes environnantes.
+				La Havane devint l’un des ports les plus importants des Caraïbes, protégeant les routes maritimes de l’Amérique espagnole. Ses fortifications, chantiers navals et maisons de commerce en firent un centre majeur du commerce, de la finance et de la puissance navale.
 				[NEWLINE][NEWLINE]
-				À l’époque moderne, Reykjavík devint le centre politique et culturel de l’Islande, conduisant le pays à son indépendance pacifique en 1944 et incarnant aujourd’hui un modèle de durabilité et d’innovation.
+				Au fil du temps, la ville développa une culture urbaine distincte, façonnée par des influences européennes, africaines et américaines, encore visibles aujourd’hui dans son architecture et son port historique.
 			</Text>
 		</Replace>
-
+		
 		<!-- SEYCHELLES -->
 		<Replace Tag="TXT_KEY_CITYSTATE_SEYCHELLES">
 			<Text>Seychelles</Text>
@@ -115,56 +100,11 @@
 				Pendant des siècles, Aden prospéra comme plaque tournante des échanges d’épices, de textiles et d’encens, avant de devenir une importante station de ravitaillement à l’ère de la navigation à vapeur.
 			</Text>
 		</Replace>
-
-		<!-- GARAMANTES -->
-		<Replace Tag="TXT_KEY_CITYSTATE_GARAMANTES">
-			<Text>Garamantes</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_GARAMANTES_ADJ">
-			<Text>Berbère</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_GARAMANTES_TEXT">
-			<Text>
-				Les Garamantes étaient un ancien peuple berbère ayant prospéré dans la région du Fezzan, dans l’actuelle Libye, entre 500 av. J.-C. et 700 apr. J.-C. Grâce à des systèmes d’irrigation souterrains sophistiqués, appelés foggaras, ils purent maintenir d’importants établissements au cœur du Sahara.
-				[NEWLINE][NEWLINE]
-				Ils entretenaient de vastes réseaux commerciaux reliant la Méditerranée à l’Afrique subsaharienne, avant de décliner sous l’effet de changements environnementaux et politiques.
-			</Text>
-		</Replace>
-
-		<!-- HAVANE -->
-		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA">
-			<Text>La Havane</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA_ADJ">
-			<Text>Cubain</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_HAVANA_TEXT">
-			<Text>
-				La Havane devint l’un des ports les plus importants des Caraïbes, protégeant les routes maritimes de l’Amérique espagnole. Ses fortifications, chantiers navals et maisons de commerce en firent un centre majeur du commerce, de la finance et de la puissance navale.
-				[NEWLINE][NEWLINE]
-				Au fil du temps, la ville développa une culture urbaine distincte, façonnée par des influences européennes, africaines et américaines, encore visibles aujourd’hui dans son architecture et son port historique.
-			</Text>
-		</Replace>
-
+		
 		<!-- ================================================= -->
 		<!-- CITÉS-ÉTATS MILITARISTES (NOUVELLES) -->
 		<!-- ================================================= -->
-
-		<!-- DAKAR -->
-		<Replace Tag="TXT_KEY_CITYSTATE_DAKAR">
-			<Text>Dakar</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_DAKAR_ADJ">
-			<Text>Sénégalais</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_DAKAR_TEXT">
-			<Text>
-				Fondée en 1857 comme poste militaire français, Dakar devint en 1902 la capitale de l’Afrique-Occidentale française. Sa position stratégique sur la côte atlantique en fit une base navale et aérienne de premier plan.
-				[NEWLINE][NEWLINE]
-				Après l’indépendance du Sénégal en 1960, Dakar demeura le centre économique et culturel du pays, ainsi qu’un carrefour majeur de la politique africaine.
-			</Text>
-		</Replace>
-
+		
 		<!-- MAPUCHE -->
 		<Replace Tag="TXT_KEY_CITYSTATE_MAPUCHE">
 			<Text>Mapuche</Text>

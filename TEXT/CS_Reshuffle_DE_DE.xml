@@ -48,40 +48,25 @@
 			</Text>
 		</Replace>
 
-		<!-- SIOUX -->
-		<Replace Tag="TXT_KEY_CITYSTATE_SIOUX">
-			<Text>Sioux</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_SIOUX_ADJ">
-			<Text>Sioux</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_SIOUX_TEXT">
-			<Text>
-				Die Sioux, auch als Oceti Sakowin („Sieben Ratsfeuer“) bekannt, sind ein Zusammenschluss indigener Völker der Großen Ebenen Nordamerikas. Ursprünglich Waldvölker, übernahmen sie im 18. Jahrhundert die Reitkultur der Prärie und wurden zu geschickten Jägern, Händlern und Kriegern.
-				[NEWLINE][NEWLINE]
-				Im 19. Jahrhundert widersetzten sich die Sioux vehement der Expansion der Vereinigten Staaten und spielten eine zentrale Rolle in Konflikten wie dem Großen Sioux-Krieg. Bis heute bewahren Sioux-Gemeinschaften ihre kulturelle Identität, Traditionen und politische Eigenständigkeit.
-			</Text>
-		</Replace>
-
 		<!-- ================================================= -->
 		<!-- MARITIME STADTSTAATEN (NEU) -->
 		<!-- ================================================= -->
-
-		<!-- REYKJAVÍK -->
-		<Replace Tag="TXT_KEY_CITYSTATE_REYKJAVIK">
-			<Text>Reykjavík</Text>
+		
+		<!-- HAVANNA -->
+		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA">
+			<Text>Havanna</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_REYKJAVIK_ADJ">
-			<Text>Isländisch</Text>
+		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA_ADJ">
+			<Text>Kubanisch</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_REYKJAVIK_TEXT">
+		<Replace Tag="TXT_KEY_CIV5_GAIA_HAVANA_TEXT">
 			<Text>
-				Reykjavík wurde im späten 9. Jahrhundert von nordischen Siedlern gegründet und entwickelte sich aus einem kleinen Küstendorf, das von Fischerei und geothermalen Ressourcen lebte. Der Name bedeutet „Rauchbucht“ und verweist auf die dampfenden heißen Quellen der Umgebung.
+				Havanna entwickelte sich zu einem der wichtigsten Häfen der Karibik und sicherte die Seewege des spanischen Amerika. Befestigte Hafenanlagen, Werften und Handelshäuser machten die Stadt zu einem Zentrum von Handel, Finanzen und Seemacht.
 				[NEWLINE][NEWLINE]
-				In der Neuzeit wurde Reykjavík zum politischen und kulturellen Zentrum Islands und führte das Land 1944 friedlich in die Unabhängigkeit. Heute gilt die Stadt als Symbol für Nachhaltigkeit, Innovation und moderne nordische Kultur.
+				Im Laufe der Zeit entstand eine unverwechselbare urbane Kultur, geprägt von europäischen, afrikanischen und amerikanischen Einflüssen. Bis heute spiegeln Architektur und Hafen das maritime Erbe der Stadt wider.
 			</Text>
 		</Replace>
-
+		
 		<!-- SEYCHELLEN -->
 		<Replace Tag="TXT_KEY_CITYSTATE_SEYCHELLES">
 			<Text>Seychellen</Text>
@@ -115,56 +100,11 @@
 				Über Jahrhunderte florierte Aden als Handelszentrum für Gewürze, Textilien und Weihrauch und wurde später zu einer wichtigen Kohle- und Versorgungsstation im Zeitalter der Dampfschifffahrt.
 			</Text>
 		</Replace>
-
-		<!-- GARAMANTEN -->
-		<Replace Tag="TXT_KEY_CITYSTATE_GARAMANTES">
-			<Text>Garamanten</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_GARAMANTES_ADJ">
-			<Text>Berberisch</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_GARAMANTES_TEXT">
-			<Text>
-				Die Garamanten waren ein antikes Berbervolk, das zwischen 500 v. Chr. und 700 n. Chr. in der Region Fezzan im heutigen Libyen lebte. Durch ausgeklügelte unterirdische Bewässerungssysteme, sogenannte Foggaras, konnten sie große Siedlungen tief in der Sahara unterhalten.
-				[NEWLINE][NEWLINE]
-				Sie unterhielten ausgedehnte Handelsnetze zwischen dem Mittelmeerraum und Subsahara-Afrika, bevor Umweltveränderungen und politische Umbrüche ihren Niedergang einleiteten.
-			</Text>
-		</Replace>
-
-		<!-- HAVANNA -->
-		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA">
-			<Text>Havanna</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA_ADJ">
-			<Text>Kubanisch</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_HAVANA_TEXT">
-			<Text>
-				Havanna entwickelte sich zu einem der wichtigsten Häfen der Karibik und sicherte die Seewege des spanischen Amerika. Befestigte Hafenanlagen, Werften und Handelshäuser machten die Stadt zu einem Zentrum von Handel, Finanzen und Seemacht.
-				[NEWLINE][NEWLINE]
-				Im Laufe der Zeit entstand eine unverwechselbare urbane Kultur, geprägt von europäischen, afrikanischen und amerikanischen Einflüssen. Bis heute spiegeln Architektur und Hafen das maritime Erbe der Stadt wider.
-			</Text>
-		</Replace>
-
+		
 		<!-- ================================================= -->
 		<!-- MILITÄRISCHE STADTSTAATEN (NEU) -->
 		<!-- ================================================= -->
-
-		<!-- DAKAR -->
-		<Replace Tag="TXT_KEY_CITYSTATE_DAKAR">
-			<Text>Dakar</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_DAKAR_ADJ">
-			<Text>Senegalesisch</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_DAKAR_TEXT">
-			<Text>
-				Dakar wurde 1857 als französischer Militärposten gegründet und entwickelte sich 1902 zur Hauptstadt von Französisch-Westafrika. Seine strategische Lage an der Atlantikküste machte es zu einem wichtigen Marine- und Luftwaffenstützpunkt.
-				[NEWLINE][NEWLINE]
-				Nach der Unabhängigkeit Senegals im Jahr 1960 blieb Dakar das wirtschaftliche und kulturelle Zentrum des Landes sowie ein Knotenpunkt afrikanischer Politik.
-			</Text>
-		</Replace>
-
+		
 		<!-- MAPUCHE -->
 		<Replace Tag="TXT_KEY_CITYSTATE_MAPUCHE">
 			<Text>Mapuche</Text>

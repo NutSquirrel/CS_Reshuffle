@@ -48,37 +48,22 @@
 			</Text>
 		</Replace>
 
-		<!-- SIOUX -->
-		<Replace Tag="TXT_KEY_CITYSTATE_SIOUX">
-			<Text>Sioux</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_SIOUX_ADJ">
-			<Text>Sioux</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_SIOUX_TEXT">
-			<Text>
-				Los Sioux, conocidos colectivamente como los Oceti Sakowin o “Siete Fuegos del Consejo”, son una confederación de pueblos indígenas de las Grandes Llanuras de América del Norte. Originalmente pueblos forestales, adoptaron la cultura ecuestre de las praderas en el siglo XVIII, convirtiéndose en hábiles cazadores, comerciantes y guerreros.
-				[NEWLINE][NEWLINE]
-				Durante el siglo XIX, los Sioux resistieron firmemente la expansión de los Estados Unidos y desempeñaron un papel central en conflictos como la Gran Guerra Sioux. En la actualidad, las comunidades sioux continúan preservando su identidad cultural, tradiciones y soberanía.
-			</Text>
-		</Replace>
-
 		<!-- ================================================= -->
 		<!-- CIUDAD-ESTADOS MARÍTIMOS (NUEVOS) -->
 		<!-- ================================================= -->
-
-		<!-- REYKJAVÍK -->
-		<Replace Tag="TXT_KEY_CITYSTATE_REYKJAVIK">
-			<Text>Reikiavik</Text>
+		
+		<!-- HAVANA -->
+		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA">
+			<Text>La Habana</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_REYKJAVIK_ADJ">
-			<Text>Islandés</Text>
+		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA_ADJ">
+			<Text>Cubano</Text>
 		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_REYKJAVIK_TEXT">
+		<Replace Tag="TXT_KEY_CIV5_GAIA_HAVANA_TEXT">
 			<Text>
-				Reikiavik fue fundada a finales del siglo IX por colonos nórdicos y se desarrolló a partir de una pequeña aldea costera sustentada por la pesca y los recursos geotérmicos. Su nombre, que significa “Bahía del Humo”, hace referencia al vapor de las fuentes termales cercanas.
+				La Habana se convirtió en uno de los puertos más importantes del Caribe, protegiendo las rutas marítimas de la América española. Sus fortificaciones, astilleros y casas comerciales la transformaron en un centro de comercio, finanzas y poder naval.
 				[NEWLINE][NEWLINE]
-				En la era moderna, Reikiavik se convirtió en el centro político y cultural de Islandia, liderando la independencia pacífica del país en 1944 y destacando como símbolo de sostenibilidad e innovación.
+				Con el tiempo, la ciudad desarrolló una cultura urbana distintiva, marcada por influencias europeas, africanas y americanas, visibles aún hoy en su arquitectura y su puerto histórico.
 			</Text>
 		</Replace>
 
@@ -115,56 +100,11 @@
 				Durante siglos, Adén prosperó como enclave comercial de especias, textiles e incienso, y más tarde como estación de abastecimiento en la era de la navegación a vapor.
 			</Text>
 		</Replace>
-
-		<!-- GARAMANTES -->
-		<Replace Tag="TXT_KEY_CITYSTATE_GARAMANTES">
-			<Text>Garamantes</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_GARAMANTES_ADJ">
-			<Text>Bereber</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_GARAMANTES_TEXT">
-			<Text>
-				Los Garamantes fueron un antiguo pueblo bereber que habitó la región del Fezán, en la actual Libia, entre el 500 a. C. y el 700 d. C. Mediante avanzados sistemas de irrigación subterránea, conocidos como foggaras, lograron sostener grandes asentamientos en pleno desierto del Sáhara.
-				[NEWLINE][NEWLINE]
-				Mantuvieron extensas redes comerciales entre el Mediterráneo y el África subsahariana, antes de decaer debido a cambios ambientales y transformaciones políticas.
-			</Text>
-		</Replace>
-
-		<!-- HAVANA -->
-		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA">
-			<Text>La Habana</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_HAVANA_ADJ">
-			<Text>Cubano</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_HAVANA_TEXT">
-			<Text>
-				La Habana se convirtió en uno de los puertos más importantes del Caribe, protegiendo las rutas marítimas de la América española. Sus fortificaciones, astilleros y casas comerciales la transformaron en un centro de comercio, finanzas y poder naval.
-				[NEWLINE][NEWLINE]
-				Con el tiempo, la ciudad desarrolló una cultura urbana distintiva, marcada por influencias europeas, africanas y americanas, visibles aún hoy en su arquitectura y su puerto histórico.
-			</Text>
-		</Replace>
-
+		
 		<!-- ================================================= -->
 		<!-- CIUDAD-ESTADOS MILITARISTAS (NUEVOS) -->
 		<!-- ================================================= -->
-
-		<!-- DAKAR -->
-		<Replace Tag="TXT_KEY_CITYSTATE_DAKAR">
-			<Text>Dakar</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CITYSTATE_DAKAR_ADJ">
-			<Text>Senegalés</Text>
-		</Replace>
-		<Replace Tag="TXT_KEY_CIV5_GAIA_DAKAR_TEXT">
-			<Text>
-				Dakar fue fundada en 1857 como un puesto militar francés y en 1902 se convirtió en la capital del África Occidental Francesa. Su ubicación estratégica en la costa atlántica la transformó en una base naval y aérea de gran importancia.
-				[NEWLINE][NEWLINE]
-				Tras la independencia de Senegal en 1960, Dakar continuó siendo el centro económico y cultural del país, así como un nodo clave de la política africana.
-			</Text>
-		</Replace>
-
+		
 		<!-- MAPUCHE -->
 		<Replace Tag="TXT_KEY_CITYSTATE_MAPUCHE">
 			<Text>Mapuche</Text>
